@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>OFIR-praksa</title>
+  </head>
+  <body class="d-flex flex-column bg-dark min-vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navmenu"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="title.html" class="nav-link">Naslovna</a>
+            </li>
+            <li class="nav-item">
+              <a href="mycity.html" class="nav-link">Osijek</a>
+            </li>
+            <li class="nav-item">
+              <a href="biography.html" class="nav-link">O meni</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link">Galerija</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row bg-dark ms-1 me-1 align-items-end">
+      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+        <img
+          src="gallery/1.jpg"
+          class="img-fluid"
+          alt="bridge"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever="1"
+        />
+      </div>
+      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+        <img
+          src="gallery/2.jpg"
+          class="img-fluid"
+          alt="life"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever="2"
+        />
+      </div>
+      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+        <img
+          src="gallery/3.jpg"
+          class="img-fluid"
+          alt="buildings"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever="3"
+        />
+      </div>
+      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+        <img
+          src="gallery/4.jpg"
+          class="img-fluid"
+          alt="digital nomad"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever="4"
+        />
+      </div>
+      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+        <img
+          src="gallery/5.jpg"
+          class="img-fluid"
+          alt="nature"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever="5"
+        />
+      </div>
+      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+        <img
+          src="gallery/6.jpg"
+          class="img-fluid"
+          alt="nature"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever="6"
+        />
+      </div>
+      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+        <img
+          src="gallery/7.jpg"
+          class="img-fluid"
+          alt="nature"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever="7"
+        />
+      </div>
+      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+        <img
+          src="gallery/8.jpg"
+          class="img-fluid"
+          alt="nature"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever="8"
+        />
+      </div>
+      <div class="col-sm-6 col-xl-3 col-lg-4 mt-3">
+        <img
+          src="gallery/9.jpg"
+          class="img-fluid"
+          alt=" nature"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever="9"
+        />
+      </div>
+      <div class="col-sm-6 col-xl-3 col-lg-4 mt-3">
+        <img
+          src="gallery/10.jpg"
+          class="img-fluid"
+          alt="nature"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever="10"
+        />
+      </div>
+      <div class="col-sm-6 col-xl-3 col-lg-4 mt-3">
+        <img
+          src="gallery/11.jpg"
+          class="img-fluid"
+          alt="tree"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever="11"
+        />
+      </div>
+      <div class="col-sm-6 col-xl-3 col-lg-4 mt-3">
+        <img
+          src="gallery/12.jpg"
+          class="img-fluid"
+          alt="architecture"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever="12"
+        />
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img class="openImage img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-light mt-3">
+      <p class="text-light text-center text-muted">
+        MOJA STRANICA. All rights reserved &copy;<span class="date"></span>
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
