@@ -11,11 +11,17 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>OFIR-praksa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <title>Galerija</title>
   </head>
-  <body class="d-flex flex-column bg-dark min-vh-100">
+  <body class="d-flex flex-column min-vh-100">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark text-center fixed-top">
       <div class="container">
         <button
           class="navbar-toggler"
@@ -31,140 +37,176 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="index.html" class="nav-link">Naslovna</a>
+              <a href="index.html" class="nav-link">NASLOVNA</a>
+            </li>
+            <li class="nav-item line">
+              <span class="nav-link">|</span>
             </li>
             <li class="nav-item">
-              <a href="mycity.html" class="nav-link">Osijek</a>
+              <a href="mycity.html" class="nav-link">OSIJEK</a>
+            </li>
+            <li class="nav-item line">
+              <span class="nav-link">|</span>
             </li>
             <li class="nav-item">
-              <a href="biography.html" class="nav-link">O meni</a>
+              <a href="biography.html" class="nav-link">O MENI</a>
+            </li>
+            <li class="nav-item line">
+              <span class="nav-link">|</span>
             </li>
             <li class="nav-item">
-              <a href="gallery.html" class="nav-link">Galerija</a>
+              <a href="gallery.html" class="nav-link active">GALERIJA</a>
+            </li>
+            <li class="nav-item line">
+              <span class="nav-link">|</span>
             </li>
             <li class="nav-item">
-              <a href="contact.html" class="nav-link">Kontakt</a>
+              <a href="contact.html" class="nav-link">KONTAKT</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="row bg-dark ms-1 me-1 align-items-end">
-      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+    <div class="row w-100">
+      <div
+        class="d-flex col-sm-6 col-xl-3 col-lg-4 mb-3 mt-5 mt-sm-1 mt-lg-1 justify-content-center"
+      >
         <img
+          class="pointer"
           src="gallery/1.jpg"
-          class="img-fluid"
           alt="bridge"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
           data-bs-whatever="1"
         />
       </div>
-      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+      <div
+        class="d-flex col-sm-6 col-xl-3 col-lg-4 mb-3 mt-5 mt-sm-1 mt-lg-1 justify-content-center"
+      >
         <img
+          class="pointer"
           src="gallery/2.jpg"
-          class="img-fluid"
           alt="life"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
           data-bs-whatever="2"
         />
       </div>
-      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+      <div
+        class="d-flex col-sm-6 col-xl-3 col-lg-4 mb-3 mt-5 mt-sm-1 mt-lg-1 justify-content-center"
+      >
         <img
+          class="pointer"
           src="gallery/3.jpg"
-          class="img-fluid"
           alt="buildings"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
           data-bs-whatever="3"
         />
       </div>
-      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+      <div
+        class="d-flex col-sm-6 col-xl-3 col-lg-4 mb-3 mt-5 mt-sm-1 mt-lg-1 justify-content-center"
+      >
         <img
+          class="pointer"
           src="gallery/4.jpg"
-          class="img-fluid"
           alt="digital nomad"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
           data-bs-whatever="4"
         />
       </div>
-      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+      <div
+        class="d-flex col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3 mt-sm-1 mt-lg-1 justify-content-center"
+      >
         <img
+          class="pointer"
           src="gallery/5.jpg"
-          class="img-fluid"
           alt="nature"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
           data-bs-whatever="5"
         />
       </div>
-      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+      <div
+        class="d-flex col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3 mt-sm-1 mt-lg-1 justify-content-center"
+      >
         <img
+          class="pointer"
           src="gallery/6.jpg"
-          class="img-fluid"
           alt="nature"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
           data-bs-whatever="6"
         />
       </div>
-      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+      <div
+        class="d-flex col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3 mt-sm-1 mt-lg-1 justify-content-center"
+      >
         <img
+          class="pointer"
           src="gallery/7.jpg"
-          class="img-fluid"
           alt="nature"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
           data-bs-whatever="7"
         />
       </div>
-      <div class="col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3">
+      <div
+        class="d-flex col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3 mt-sm-1 mt-lg-1 justify-content-center"
+      >
         <img
+          class="pointer"
           src="gallery/8.jpg"
-          class="img-fluid"
           alt="nature"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
           data-bs-whatever="8"
         />
       </div>
-      <div class="col-sm-6 col-xl-3 col-lg-4 mt-3">
+      <div
+        class="d-flex col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3 mt-sm-1 mt-lg-1 justify-content-center"
+      >
         <img
+          class="pointer"
           src="gallery/9.jpg"
-          class="img-fluid"
           alt=" nature"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
           data-bs-whatever="9"
         />
       </div>
-      <div class="col-sm-6 col-xl-3 col-lg-4 mt-3">
+      <div
+        class="d-flex col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3 mt-sm-1 mt-lg-1 justify-content-center"
+      >
         <img
+          class="pointer"
           src="gallery/10.jpg"
-          class="img-fluid"
           alt="nature"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
           data-bs-whatever="10"
         />
       </div>
-      <div class="col-sm-6 col-xl-3 col-lg-4 mt-3">
+      <div
+        class="d-flex col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3 mt-sm-1 mt-lg-1 justify-content-center"
+      >
         <img
+          class="pointer"
           src="gallery/11.jpg"
-          class="img-fluid"
           alt="tree"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
           data-bs-whatever="11"
         />
       </div>
-      <div class="col-sm-6 col-xl-3 col-lg-4 mt-3">
+      <div
+        class="d-flex col-sm-6 col-xl-3 col-lg-4 mb-3 mt-3 mt-sm-1 mt-lg-1 justify-content-center"
+      >
         <img
+          class="pointer"
           src="gallery/12.jpg"
-          class="img-fluid"
           alt="architecture"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
@@ -191,13 +233,13 @@
             ></button>
           </div>
           <div class="modal-body">
-            <img class="openImage img-fluid" />
+            <img class="openImage w-100 h-100" />
           </div>
         </div>
       </div>
     </div>
 
-    <footer class="bg-dark text-light mt-3">
+    <footer class="text-light mt-3">
       <p class="text-light text-center text-muted">
         MOJA STRANICA. All rights reserved &copy;<span class="date"></span>
       </p>

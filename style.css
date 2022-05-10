@@ -1,4 +1,68 @@
 html,
 body {
+  font-family: "Questrial", sans-serif;
   height: 100%;
+  background-color: #215864;
+  position: relative;
+}
+
+@media screen and (max-width: 576px) {
+  .line {
+    display: none;
+  }
+  .nav-bg-color {
+    background-color: #215864;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .active {
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+  }
+  .navbar {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  form {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  form {
+    width: 50%;
+  }
+  .biography {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  form {
+    width: 50%;
+  }
+  .biography {
+    width: 50%;
+  }
+}
+
+.underline {
+  height: 20px;
+  width: 60%;
+}
+
+img {
+  height: 190px;
+  width: 280px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.mycity {
+  width: 60%;
 }
